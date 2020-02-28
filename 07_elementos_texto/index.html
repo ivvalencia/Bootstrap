@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elementos de texto: titulares, párrafos, alineación y otros</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Titular nivel 1</h1>
+          <h2>Titular nivel 2</h2>
+          <h3>Titular nivel 3</h3>
+          <h4>Titular nivel 4</h4>
+          <h5>Titular nivel 5</h5>
+          <h6>Titular nivel 6</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, fuga dolorum molestias ex vitae adipisci rerum tempora est error reprehenderit excepturi repellendus facere iusto repellat atque. Eos, porro ad adipisci.</p>
+          <h4>Titular <small>con texto secundario</small></h4>
+          <p class="lead">Párrafo destacado con <code>.lead</code>: <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+          <blockquote class="blockquote-reverse">
+            <p>O texto destacado con blockquote.</p>
+            <footer>Con efectos adicionales como un footer o alineación invertida con <code>.blockquote-reverse</code>.</footer>
+          </blockquote>
+          <p class="text-left">Alineamiento a la izquierda con <code>.text-left</code>.</p>
+          <p class="text-right">Alineamiento a la derecha con <code>.text-right</code></p>
+          <p class="text-center">Alineamiento centrado con <code>.text-center</code></p>
+          <p class="text-justify">E incluso alineamiento justificado mediante la clase <code>.text-justify</code> que requiere de textos más extensos para poder apreciarse correctamente su efecto sobre un párrafo.</p>          
+          <p>Formato propio para direcciones:</p>
+          <address> <strong>Daniel Velázquez</strong><br>
+                   Calle vivienda, 1 2º<br>
+                   Ciudad, CP000<br>
+                   <abbr title="teléfono">t.</abbr> (+52) 5537 1426</address>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <p>Tiene soporte para <abbr title="esto es una explicación">abreviaturas</abbr> mediante la etiqueta <pre>&lt;abbr&gt;</pre></p>          
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <p>E incluso un formato para representar entradas de teclado del usuario como <kbd>Ctrl+E</kbd> mediante la etiqueta <pre>&lt;kbd&gt;</pre></p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
